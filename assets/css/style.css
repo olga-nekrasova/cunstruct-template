@@ -1,6 +1,6 @@
 @font-face {
     font-family: Bebas Neue; /* Имя шрифта */
-    src: url(./assets/fonts/BebasNeue-Regular.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/BebasNeue-Regular.ttf); /* Путь к файлу со шрифтом */
 }
 
 html {
@@ -178,7 +178,7 @@ body {
 }
 
 .we_plan {
-    background: url("./assets/img/we_plan_bg.png") no-repeat;
+    background: url("../img/we_plan_bg.png") no-repeat;
     width: 140px;
     height: 224px;
     padding: 9px;
@@ -199,7 +199,7 @@ body {
 }
 
 .we_manage {
-    background: url("./assets/img/we_manage_bg.png") no-repeat;
+    background: url("../img/we_manage_bg.png") no-repeat;
     width: 140px;
     height: 224px;
     padding: 8px;
@@ -220,7 +220,7 @@ body {
 }
 
 .we_build {
-    background: url("./assets/img/we_build_bg.png") no-repeat;
+    background: url("../img/we_build_bg.png") no-repeat;
     width: 140px;
     height: 224px;
     padding: 9px;
@@ -366,7 +366,7 @@ body {
 }
 
 .city_img {
-    background: url("./assets/img/city.png") no-repeat;
+    background: url("../img/city.png") no-repeat;
     width: 100%;
     min-height: 499px;
     background-size: cover;
