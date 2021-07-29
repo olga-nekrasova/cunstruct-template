@@ -1,6 +1,6 @@
 @font-face {
     font-family: Bebas Neue; /* Имя шрифта */
-    src: url(/assets/fonts/BebasNeue-Regular.ttf); /* Путь к файлу со шрифтом */
+    src: url(./assets/fonts/BebasNeue-Regular.ttf); /* Путь к файлу со шрифтом */
 }
 
 html {
@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    background: url("/assets/img/bg.png") no-repeat;
+    background: url("./assets/img/bg.png") no-repeat;
     width: 100%;
     min-height: 769px;
     background-size: cover;
@@ -178,7 +178,7 @@ body {
 }
 
 .we_plan {
-    background: url("/assets/img/we_plan_bg.png") no-repeat;
+    background: url("./assets/img/we_plan_bg.png") no-repeat;
     width: 140px;
     height: 224px;
     padding: 9px;
@@ -199,7 +199,7 @@ body {
 }
 
 .we_manage {
-    background: url("/assets/img/we_manage_bg.png") no-repeat;
+    background: url("./assets/img/we_manage_bg.png") no-repeat;
     width: 140px;
     height: 224px;
     padding: 8px;
@@ -220,7 +220,7 @@ body {
 }
 
 .we_build {
-    background: url("/assets/img/we_build_bg.png") no-repeat;
+    background: url("./assets/img/we_build_bg.png") no-repeat;
     width: 140px;
     height: 224px;
     padding: 9px;
@@ -366,7 +366,7 @@ body {
 }
 
 .city_img {
-    background: url("/assets/img/city.png") no-repeat;
+    background: url("./assets/img/city.png") no-repeat;
     width: 100%;
     min-height: 499px;
     background-size: cover;
@@ -520,18 +520,6 @@ body {
     display: flex;
     justify-content: space-between;
     width: 262px;
-}
-
-.links_column_1 {
-
-}
-
-.links_column_2 {
-
-}
-
-.links_column_3 {
-
 }
 
 .links_ul {
